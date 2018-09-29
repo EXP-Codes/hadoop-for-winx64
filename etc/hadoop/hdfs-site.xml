@@ -25,12 +25,12 @@
 
    <property>
        <name>dfs.namenode.name.dir</name>
-       <value>file:/03_work/apache-hadoop/3.0.3/data/dfs/namenode</value>
+       <value>file:/hadoop/3.0.3/data/dfs/namenode</value>
    </property>
 
    <property>
        <name>dfs.datanode.data.dir</name>
-       <value>file:/03_work/apache-hadoop/3.0.3/data/dfs/datanode</value>
+       <value>file:/hadoop/3.0.3/data/dfs/datanode</value>
    </property>
  
 </configuration>
