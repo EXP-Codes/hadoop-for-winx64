@@ -18,3 +18,20 @@
 [《使用Eclipse插件连接配置Mapreduce说明与教程(hadoop-eclipse-plugin 2.6)》](https://blog.csdn.net/huitoukest/article/details/50922256)
 [《基于 Eclipse 的 MapReduce 开发环境搭建》](https://www.cnblogs.com/vincentzh/p/6055850.html)
 
+
+配套pom坐标:
+```xml
+<dependency>
+  <groupId>org.apache.hadoop</groupId>
+  <artifactId>hadoop-common</artifactId>
+  <version>3.0.0</version>
+  <type>pom</type>
+</dependency>
+
+<dependency>
+  <groupId>org.apache.hadoop</groupId>
+  <artifactId>hadoop-mapreduce-client-core</artifactId>
+  <version>3.0.0</version>
+  <type>pom</type>
+</dependency>
+```
