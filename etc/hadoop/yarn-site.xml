@@ -24,5 +24,12 @@
       <name>yarn.nodemanager.aux-services.mapreduce.shuffle.class</name>
       <value>org.apache.hadoop.mapred.ShuffleHandler</value>
    </property>
+   
+   <property>
+      <description>The address of the scheduler interface</description>
+      <name>yarn.resourcemanager.scheduler.address</name>
+      <value>127.0.0.1:8030</value>
+   </property>
+
  
 </configuration>
