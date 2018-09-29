@@ -1,4 +1,4 @@
-此插件是配套给Eclipse用的，官方下载地址为：[https://github.com/lyy289065406/hadoop2x-eclipse-plugin](https://github.com/lyy289065406/hadoop2x-eclipse-plugin)
+此插件是配套给Eclipse用的，官方下载地址为：[https://github.com/winghc/hadoop2x-eclipse-plugin](https://github.com/winghc/hadoop2x-eclipse-plugin)
 
 使用方法参考：[《Hadoop-Eclipse-Plugin 安装》](https://blog.csdn.net/ichimaru_gin_/article/details/78997576)
 

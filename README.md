@@ -22,7 +22,9 @@ git config --global core.longpaths true
 搭建的是【单机版】。
 
 由于windows下的hadopp缺少`hadoop.dll`和`winutils.exe`导致无法运行，
-且这两个版本还要找到匹配版本号、编译平台的Hadoop才能用，因此这里就一次性先做好，放到一起，省得麻烦
+且这两个版本还要找到匹配版本号、编译平台的Hadoop才能用，因此这里就一次性先做好，放到一起，省得麻烦。
+
+这两个文件的官方下载地址是：[https://github.com/steveloughran/winutils](https://github.com/steveloughran/winutils)
 
 ------
 
