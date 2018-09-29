@@ -1,2 +1,2 @@
 # hadoop-for-winx64
-ç”±äºŽhadoopéƒ¨ç½²åœ¨winä¸Šæ¯”unixéº»çƒ¦å¾—å¤šï¼Œç‰¹æ„éƒ¨ç½²å¥½è¿™ä¸ªç‰ˆæœ¬ï¼Œä¸‹è½½åŽç¨å¾®é…ç½®çŽ¯å¢ƒå˜é‡å°±å¯è¿è¡Œï¼ˆåŸºäºŽHadoop3.0.3ç‰ˆæœ¬ï¼‰
+ÓÉÓÚhadoop²¿ÊðÔÚwinÉÏ±ÈunixÂé·³µÃ¶à£¬ÌØÒâ²¿ÊðºÃÕâ¸ö°æ±¾£¬ÏÂÔØºóÉÔÎ¢ÅäÖÃ»·¾³±äÁ¿¾Í¿ÉÔËÐÐ£¨»ùÓÚHadoop3.0.3°æ±¾£©
