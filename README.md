@@ -15,7 +15,7 @@ git config --global core.longpaths true
 
 
 此Hadoop是参考 [《hadoop2.7.2 window win7 基础环境搭建》](https://blog.csdn.net/fly_leopard/article/details/51250443)进行搭建的，
-搭建的是单机版。
+搭建的是【单机版】。
 
 由于windows下的hadopp缺少`hadoop.dll`和`winutils.exe`导致无法运行，
 且这两个版本还要找到匹配版本号、编译平台的Hadoop才能用，因此这里就一次性先做好，放到一起，省得麻烦
@@ -36,6 +36,13 @@ git config --global core.longpaths true
 5. 切到 `./bin` 目录 , 在dos下执行 `hadoop version`  若打印版本号则安装成功
 6. 切到 `./bin` 目录 , 在dos下执行 `hdfs namenode -format`  对HDFS系统初始化
 7. 以后需要启动时，切到`./sbin` 目录 , 在dos下执行 `start-dfs` 即可
-8. 打开浏览器 `http://127.0.0.1:9870`  （端口号是在启动日志中打印的， 并不是`core-site.xml`所配置的9000端口）可进入管理页
+8. 打开浏览器 `http://127.0.0.1:9870`可进入管理页  （端口号是在启动日志中打印的， 并不是`core-site.xml`所配置的9000端口）
+<br/> DOS有一行提示：hdfs.DFSUtil: Starting Web-server for hdfs at: http/0.0.0.0:9870
 9. 注意：hadoop启动时会启动了一堆守护进程和服务端口，如果不想下次无法启动，就不能简单关掉dos框就认为服务终止了。
 <br/>  正确的做法是切到`./sbin` 目录 , 在dos下执行 `stop-all` 命令。
+
+--------------
+
+注意：
+1. plugin 是我加的文件夹，里面的插件是配套给Eclipse连接MapReduce用的
+2. 原本Hadoop缺失的 `hadoop.dll`和`winutils.exe` 文件我已经放到 `bin` 目录下，有必要可以提取（版本是和Hadoop配套的）
